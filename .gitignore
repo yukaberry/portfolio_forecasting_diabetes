@@ -2,7 +2,7 @@
 #*.sav    #for picked model
 # *.csv
 *.xlsx
-*.ipynb
+.ipynb
 
 
 ### Python ###
