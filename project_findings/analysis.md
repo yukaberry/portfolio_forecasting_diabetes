@@ -33,7 +33,7 @@ To diagnostically predict whether or not a patient has diabetes, based on certai
 * Labels : 
     - Outcome (1 for Diabetes, 0 for Non-Diabetes) 
 
-![data_balance](/images/data_balance.PNG)
+![data_balance](/images/data_balance.png)
 
 ### Boxplot
 
