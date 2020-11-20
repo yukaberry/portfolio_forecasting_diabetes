@@ -33,6 +33,19 @@ To diagnostically predict whether or not a patient has diabetes, based on certai
 * Labels : 
     - Outcome (1 for Diabetes, 0 for Non-Diabetes) 
 
+![data_balance](/images/data_balance.PNG)
+
+### Boxplot
+
+* Insulin's outliers' is widely spread. It might be incorrect data(or input) so it would be helpful to ask experties' opinions. 
+
+![boxplot1](/images/boxplot1.png)
+![boxplot2](/images/boxplot2.png)
+![boxplot3](/images/boxplot3.png)
+
+### Correlation
+![correlation](/images/cor_matrix.PNG)
+
 # 3. Model and methods Overview
 
 ### Random Forest and Logistic Regression
@@ -87,6 +100,10 @@ Usually disappears after pregnancy but women affected and their children are at 
 ## Missing data
 
 * Take Median values to fill out BMI, blood pressure, Glucose's missing values
+
+![data_missing](/images/missing.PNG)
+![data_missing2](/images/missing2.PNG)
+![data_missing3](/images/missing3.PNG)
 
 ## Handling imbalanced data 
 
