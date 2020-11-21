@@ -116,8 +116,8 @@ Usually disappears after pregnancy but women affected and their children are at 
 # 7. Model Selection
 
 ## 7.1 Target and Evaluation
-* **Target : Improve F1 score (Precision and Recall Average), Not accuracy
-* **Evaluation of models : ROC and AUC curve chart
+* **Target : Improve F1 score (Precision and Recall Average), Not accuracy**
+* **Evaluation of models : ROC and AUC curve chart**
 
 
 ![model_comparason](/images/model_comparason.PNG)
