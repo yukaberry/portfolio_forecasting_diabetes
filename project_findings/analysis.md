@@ -3,14 +3,14 @@
 
 # Table of contents
 
-1.The objecttive of this project
-2.Data details
-3.Model and methods Overview
-4.Domain : Diabetes types
-5.Assumptions
-6.Feature creattion and Data cleaning
-7.Model selection
-8.Challenges and Augmentations
+1. The objecttive of this project
+2. Data details
+3. Model and methods Overview
+4. Domain : Diabetes types
+5. Assumptions
+6. Feature creattion and Data cleaning
+7. Model selection
+8. Challenges and Augmentations
 
 
 
@@ -35,8 +35,8 @@ To diagnostically predict whether or not a patient has diabetes, based on certai
 
 ![data_balance](/images/data_balance.png)
 
-### Boxplot
-
+### Boxplot (a method for graphically depicting groups of numerical data through their quartiles)
+**The ends of the box represent the lower and upper quartiles, while the median (second quartile) is marked by a line inside the box.**
 * Insulin's outliers' is widely spread. It might be incorrect data(or input) so it would be helpful to ask experties' opinions. 
 
 ![boxplot1](/images/boxplot1.png)

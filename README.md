@@ -1,6 +1,6 @@
 # Project : Data Science 
 # Forecasting Diabetes by diagnostic measures
-**To diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements. All patients here are females at least 21 years old of Pima Indian heritage**
+**To diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements. All patients here are females at least 21 years old of Pima Indian heritage.** [Here](https://github.com/yukaberry/portfolio_forecasting_diabetes/blob/master/project_findings/analysis.md) to see the project findings
 
 1.The objecttive of this project
 2.Data details
@@ -31,4 +31,4 @@ Learning basic techniques and approach to solve a classification problem by mach
 * [turning_model.py](https://github.com/yukaberry/portfolio_forecasting_diabetes/blob/master/turning_model.py) Evaluating and turning a model
 * [turning_resampled_modeling.py ](https://github.com/yukaberry/portfolio_forecasting_diabetes/blob/master/turning_resampled_modeling.py) Evaluating and turning a model which was trained by resampled dataset
 
-* [requirements.txt] Software Requirements
+* [requirements.txt](https://github.com/yukaberry/portfolio_forecasting_diabetes/blob/master/requirements.txt)Software Requirements
