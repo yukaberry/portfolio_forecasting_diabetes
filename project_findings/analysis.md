@@ -135,8 +135,11 @@ Comparason of models' accuracy
 
 ![feature_importance](/images/fearture_importance_rf.PNG)
 
+## 6.4 A tree visualization
+![tree](/images/decision_tree_number0.png)
 
-## 6.4 FP and FN studies
+
+## 6.5 FP and FN studies
 
 **False Positive(Model classify as Diabetes but it is actually NOT diabetes)**
 * Age : older than 37 years old **88%**
