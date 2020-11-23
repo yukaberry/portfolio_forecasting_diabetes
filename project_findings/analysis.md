@@ -99,7 +99,7 @@ Usually disappears after pregnancy but women affected and their children are at 
 
 ## Handling imbalanced data 
 
-* Set class_weights (for Logistic Regression)
+* Set class_weights (hyperparameter turning: random forest) 
 * Resampling (SMOTE and Undersampling) 
 
 ![resampling_method](/images/resampling_method.PNG)
@@ -178,22 +178,6 @@ Comparason of baseline model and turned model
 * Handling outliers (especially "Blood Pressure" variable) 
 
 ![outliers](/images/outliers.PNG)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
