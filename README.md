@@ -5,11 +5,10 @@
 1. The objecttive of this project
 2. Data details
 3. Model and methods Overview
-4. Domain : Diabetes types
-5. Assumptions
-6. Feature creattion and Data cleaning
-7. Model selection
-8. Challenges and Augmentations
+4. Domain (Diabetes types)
+5. Feature creattion and Data cleaning
+6. Model selection
+7. Challenges and Augmentations
 
 
 # Motivation 

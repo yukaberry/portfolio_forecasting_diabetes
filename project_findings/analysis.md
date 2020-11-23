@@ -7,10 +7,9 @@
 2. Data details
 3. Model and methods Overview
 4. Domain : Diabetes types
-5. Assumptions
-6. Feature creattion and Data cleaning
-7. Model selection
-8. Challenges and Augmentations
+5. Feature creattion and Data cleaning
+6. Model selection
+7. Challenges and Augmentations
 
 
 
@@ -70,15 +69,8 @@ Usually disappears after pregnancy but women affected and their children are at 
 [Reference link](https://www.idf.org/aboutdiabetes/what-is-diabetes.html?gclid=Cj0KCQjwyPbzBRDsARIsAFh15JbnJPIjlz4ByJoQ5NmP71B0fMTZAgn4v5Ht5VT51Iwpg9N9zKv7RE4aAo_9EALw_wcB)
 
 
-# 5. Assumption
 
-* “High blood pressure” + “BMI over 30” = Diabete?
-* Being pregnant many times = Diabetes?
-
-![feature_importance](/images/fearture_importance_rf.PNG)
-
-
-# 6. Feature Engeneering and Data Cleaning
+# 5. Feature Engeneering and Data Cleaning
 
 
 ## Create new Features
@@ -113,27 +105,36 @@ Usually disappears after pregnancy but women affected and their children are at 
 ![resampling_method](/images/resampling_method.PNG)
 
 
-# 7. Model Selection
+# 6. Model Selection
 
-## 7.1 Target and Evaluation
-* **Target : Improve F1 score (Precision and Recall Average), Not accuracy**
-* **Evaluation of models : ROC and AUC curve chart**
-
+## 6.1 Target and Evaluation
+**Target : Improve F1 score (Precision and Recall Average), Not accuracy**
 
 ![model_comparason](/images/model_comparason.PNG)
+
+
+**Evaluation of models : ROC and AUC curve chart**
+
 ![ROC_AUC](/images/ROC_AUC.PNG)
 
 
-## 7.2 Score details
+## 6.2 Score details
 
 ![dataframe of scores](/images/)
 
-![rocaud of rf](/images/roc_auc_rf.PNG)
+![roc_auc_of rf](/images/roc_auc_rf.PNG)
 
 ![classifcation report of rf](/images/)
 
 
-## 7.3 FP and FN studies
+## 6.3
+
+**Feature importance of random forest**
+
+![feature_importance](/images/fearture_importance_rf.PNG)
+
+
+## 6.4 FP and FN studies
 
 **False Positive(Model classify as Diabetes but it is actually NOT diabetes)**
 * Age : older than 37 years old **88%**
