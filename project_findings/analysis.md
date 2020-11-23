@@ -47,9 +47,9 @@ To diagnostically predict whether or not a patient has diabetes, based on certai
 
 # 3. Model and methods Overview
 
-### Random Forest and Logistic Regression
-### ROC and AUC for viewing F1 score
-### Class_weight, Resampling for imbalanced data
+### Model : Random Forest
+### Evaluation : ROC and AUC
+### Methods : Class_weight for hyperparameter tuning, Upsampling for imbalanced data
 
 
 # 4. Domain (Types of Diabetes)
@@ -124,11 +124,23 @@ Comparason of models' accuracy
 
 ## 6.2 Score details
 
-![dataframe of scores](/images/)
+Comparason of baseline model and turned model
 
-![roc_auc_of rf](/images/roc_auc_rf.PNG)
+![dataframe of scores](/images/score_report_df.PNG)
 
-![classifcation report of rf](/images/)
+
+#### Before turning hyperparameters
+![roc_base](/images/roc_base.PNG)
+
+#### After turning hyperparameters
+
+![roc_base](/images/roc_turned.PNG)
+
+
+![classifcation report_turned model](/images/classification_repo_turnedmodel.PNG)
+
+#### Confusion matrix ( turned model) 
+![confusion_matrix_turned_rfc](/images/confusion_matrix_turned_rfc.PNG)
 
 
 ## 6.3 Feature importance of random forest
