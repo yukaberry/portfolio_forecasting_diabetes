@@ -131,7 +131,7 @@ Comparason of models' accuracy
 #### Comparason of baseline model and turned model trained by upsampled data
 Upsampled technique did not improve scores dramatically.
 
-![dataframe of scores](/images/score_report_df_updasampled.PNG.PNG)
+![dataframe of scores](/images/score_report_df_updasampled.PNG)
 
 
 #### Before turning hyperparameters
