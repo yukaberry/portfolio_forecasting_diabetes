@@ -124,9 +124,14 @@ Comparason of models' accuracy
 
 ## 6.2 Score details
 
-Comparason of baseline model and turned model
+#### Comparason of baseline model and turned model
 
 ![dataframe of scores](/images/score_report_df.PNG)
+
+#### Comparason of baseline model and turned model trained by upsampled data
+Upsampled technique did not improve scores dramatically.
+
+![dataframe of scores](/images/score_report_df_updasampled.PNG.PNG)
 
 
 #### Before turning hyperparameters
