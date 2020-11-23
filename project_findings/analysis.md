@@ -107,15 +107,17 @@ Usually disappears after pregnancy but women affected and their children are at 
 
 # 6. Model Selection
 
-## 6.1 Target and Evaluation
-## Target : Improve F1 score (Precision and Recall Average), Not accuracys
+## 6.1 Evaluation
+
+Comparason of models' accuracy
 
 ![model_comparason](/images/model_comparason.PNG)
 
 
 ## Evaluation of models  : AUC (area under the curve) and ROC (receiver operating characteristic curve) 
-ROC (lines in a chart): **a performance measurement for classification problem at various thresholds settings. An ROC curve plots TPR(True Positive Rate) vs. FPR (False Positive Rate) at different classification thresholds.** 
-AUC (space under lines in a chart): **AUC stands for "Area under the ROC Curve." It provides an aggregate measure of performance across all possible classification thresholds. It ranges in value from 0 to 1. AUC near to the 1 which means it has good measure of separability.**
+* *ROC (lines in a chart)*: **a performance measurement for classification problem at various thresholds settings. An ROC curve plots TPR(True Positive Rate) vs. FPR (False Positive Rate) at different classification thresholds.** 
+
+* *AUC (space under lines in a chart)*: **AUC stands for "Area under the ROC Curve." It provides an aggregate measure of performance across all possible classification thresholds. It ranges in value from 0 to 1. AUC near to the 1 which means it has good measure of separability.**
 
 ![ROC_AUC](/images/ROC_AUC.PNG)
 
