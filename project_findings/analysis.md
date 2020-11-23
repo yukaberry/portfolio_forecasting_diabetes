@@ -108,12 +108,14 @@ Usually disappears after pregnancy but women affected and their children are at 
 # 6. Model Selection
 
 ## 6.1 Target and Evaluation
-**Target : Improve F1 score (Precision and Recall Average), Not accuracy**
+## Target : Improve F1 score (Precision and Recall Average), Not accuracys
 
 ![model_comparason](/images/model_comparason.PNG)
 
 
-**Evaluation of models : ROC and AUC curve chart**
+## Evaluation of models  : AUC (area under the curve) and ROC (receiver operating characteristic curve) 
+ROC (lines in a chart): **a performance measurement for classification problem at various thresholds settings. An ROC curve plots TPR(True Positive Rate) vs. FPR (False Positive Rate) at different classification thresholds.** 
+AUC (space under lines in a chart): **AUC stands for "Area under the ROC Curve." It provides an aggregate measure of performance across all possible classification thresholds. It ranges in value from 0 to 1. AUC near to the 1 which means it has good measure of separability.**
 
 ![ROC_AUC](/images/ROC_AUC.PNG)
 
@@ -127,9 +129,7 @@ Usually disappears after pregnancy but women affected and their children are at 
 ![classifcation report of rf](/images/)
 
 
-## 6.3
-
-**Feature importance of random forest**
+## 6.3 Feature importance of random forest
 
 ![feature_importance](/images/fearture_importance_rf.PNG)
 
@@ -152,12 +152,12 @@ Usually disappears after pregnancy but women affected and their children are at 
 
 
 ## With additional time I would do the following....
-* Study deeper on features of FP and FN and create new features to improve F1 score
+* Study deeper on features of FP and FN and create new features to a model.
 * Collect more observations since the dataset was too small.
 * Ask experties' advise of types of diabetes. It would be interesting to know if labels are detailed (Type1, Type2, Gestational)
 * Explore different methods for handling imbalanced data resampling (ex: ENN, Hybrid of Random over + under sampling)   
 * Missing insulin data which could be important feature(based on domain info)
-* Predicotor variable "Diabetes Pedigree Function". There was no explanation of what it was and how it was created.
+* Use and study more about Predicotor variable "Diabetes Pedigree Function" feature. There was no dedailed explanation of what it was and how it was created. According to "feature imortance" check, this feature will play a good role in random forest model to classify this problem.
 * Handling outliers (especially "Blood Pressure" variable) 
 
 ![outliers](/images/outliers.PNG)
