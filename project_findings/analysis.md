@@ -165,6 +165,7 @@ Undersampled technique did not improve scores dramatically.
 * Pregnancies: Yes 77 %
 * BMI_group_Obesity 77 %
 * Glucose pre diabetes 77 %
+
 **False Negative(Model classify as not Diabetes but it is actually diabetes)**
 * Age : **20s 55%**,  30s 30%,  40s 15%
 * Pregnancies : Yes 80% 
