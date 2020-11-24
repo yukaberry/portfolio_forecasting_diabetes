@@ -100,9 +100,11 @@ Usually disappears after pregnancy but women affected and their children are at 
 ## Handling imbalanced data 
 
 * Set class_weights (hyperparameter turning: random forest) 
-* Resampling (SMOTE and Undersampling) 
+* **Undersampling**
 
 ![resampling_method](/images/resampling_method.PNG)
+
+![undersample](/images/data_balance_undersample.PNG)
 
 
 # 6. Model Selection
@@ -128,8 +130,8 @@ Comparason of models' accuracy
 
 ![dataframe of scores](/images/score_report_df.PNG)
 
-#### Comparason of baseline model and turned model trained by upsampled data
-Upsampled technique did not improve scores dramatically.
+#### Comparason of baseline model and turned model trained by undersampled data
+Undersampled technique did not improve scores dramatically.
 
 ![dataframe of scores](/images/score_report_df_updasampled.PNG)
 
@@ -144,7 +146,7 @@ Upsampled technique did not improve scores dramatically.
 
 ![classifcation report_turned model](/images/classification_repo_turnedmodel.PNG)
 
-#### Confusion matrix ( turned model) 
+#### Confusion matrix (Turned model) 
 ![confusion_matrix_turned_rfc](/images/confusion_matrix_turned_rfc.PNG)
 
 
@@ -176,8 +178,8 @@ Upsampled technique did not improve scores dramatically.
 ## With additional time I would do the following....
 * Study deeper on features of FP and FN and create new features to a model.
 * Collect more observations since the dataset was too small.
-* Ask experties' advise of types of diabetes. It would be interesting to know if labels are detailed (Type1, Type2, Gestational)
-* Explore different methods for handling imbalanced data resampling (ex: ENN, Hybrid of Random over + under sampling)   
+* Ask **experties' advise** of types of diabetes. It would be interesting to know if labels are detailed (Type1, Type2, Gestational)
+* Explore different methods for handling imbalanced data resampling (ex: **SMOTE,ENN, Hybrid of Random over + under sampling**)   
 * Missing insulin data which could be important feature(based on domain info)
 * Use and study more about Predicotor variable "Diabetes Pedigree Function" feature. There was no dedailed explanation of what it was and how it was created. According to "feature imortance" check, this feature will play a good role in random forest model to classify this problem.
 * Handling outliers (especially "Blood Pressure" variable) 
