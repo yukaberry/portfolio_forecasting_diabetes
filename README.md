@@ -7,7 +7,7 @@
 3. Model and methods Overview
 4. Domain (Diabetes types)
 5. Feature creattion and Data cleaning
-6. Model selection
+6. Model selection and Evaluation
 7. Challenges and Augmentations
 
 
@@ -24,9 +24,10 @@ Learning basic techniques and approach to solve a classification problem by mach
 * [utils](https://github.com/yukaberry/portfolio_forecasting_diabetes/tree/master/utils)
     - [cleaning_utils.py](https://github.com/yukaberry/portfolio_forecasting_diabetes/blob/master/utils/cleaning_utils.py)
     - [modeling_utils.py](https://github.com/yukaberry/portfolio_forecasting_diabetes/blob/master/utils/modeling_utils.py)
+* [notebooks](https://github.com/yukaberry/portfolio_forecasting_diabetes/tree/master/notebooks) clearning.py and turning_model.py's notebook version. It shows graph and **visualisation** process. 
     
 * [clearning.py](https://github.com/yukaberry/portfolio_forecasting_diabetes/blob/master/cleaning.py) Preprocessing datasets
-* [modeling.py](https://github.com/yukaberry/portfolio_forecasting_diabetes/blob/master/modeling.py) Baseline modeling
+* 
 * [turning_model.py](https://github.com/yukaberry/portfolio_forecasting_diabetes/blob/master/turning_model.py) Evaluating and turning a model
 * [turning_resampled_modeling.py ](https://github.com/yukaberry/portfolio_forecasting_diabetes/blob/master/turning_resampled_modeling.py) Evaluating and turning a model which was trained by resampled dataset
 

@@ -8,7 +8,7 @@
 3. Model and methods Overview
 4. Domain : Diabetes types
 5. Feature creattion and Data cleaning
-6. Model selection
+6. Model selection and evaluation
 7. Challenges and Augmentations
 
 
@@ -42,14 +42,16 @@ To diagnostically predict whether or not a patient has diabetes, based on certai
 ![boxplot2](/images/boxplot2.png)
 ![boxplot3](/images/boxplot3.png)
 
-### Correlation
+### Correlation matrix
+Pearson correlation coefficient to examine the strength and direction of the linear relationship between two variables. Scores bteween -1 to 1. 
+
 ![correlation](/images/cor_matrix.PNG)
 
 # 3. Model and methods Overview
 
 ### Model : Random Forest
 ### Evaluation : ROC and AUC
-### Methods : Class_weight for hyperparameter tuning, Upsampling for imbalanced data
+### Methods : Class_weight for hyperparameter tuning, Undersampling for imbalanced data
 
 
 # 4. Domain (Types of Diabetes)
