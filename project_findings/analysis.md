@@ -36,7 +36,7 @@ To diagnostically predict whether or not a patient has diabetes, based on certai
 
 ###  EDA (Exploratory Data Analysis) by pandasgui
 
-![pandasgui_comparason_of diabetes_non_diabetes](/images/compare_repo_outcome_comparason.html)
+[pandasgui_comparason_of diabetes_non_diabetes](https://htmlpreview.github.io/?https://github.com/yukaberry/portfolio_forecasting_diabetes/blob/master/images/compare_repo_outcome_comparason.html)
 
 
 ### Boxplot (a method for graphically depicting groups of numerical data through their quartiles)
