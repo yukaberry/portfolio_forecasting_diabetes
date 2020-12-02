@@ -34,6 +34,11 @@ To diagnostically predict whether or not a patient has diabetes, based on certai
 
 ![data_balance](/images/data_balance.png)
 
+###  EDA (Exploratory Data Analysis) by pandasgui
+
+![pandasgui_comparason_of diabetes_non_diabetes](compare_repo_outcome_comparason.html)
+
+
 ### Boxplot (a method for graphically depicting groups of numerical data through their quartiles)
 **The ends of the box represent the lower and upper quartiles, while the median (second quartile) is marked by a line inside the box.**
 * Insulin's outliers' is widely spread. It might be incorrect data(or input) so it would be helpful to ask experties' opinions. 
@@ -46,6 +51,17 @@ To diagnostically predict whether or not a patient has diabetes, based on certai
 Pearson correlation coefficient to examine the strength and direction of the linear relationship between two variables. Scores bteween -1 to 1. 
 
 ![correlation](/images/cor_matrix.PNG)
+
+
+### Correlation : Pregnancy and Age
+
+* **Outcome (1 for Diabetes, 0 for Non-Diabetes)**
+
+![pregnancies_age_correlation](/images/preg_age_outcome.png)
+
+
+
+
 
 # 3. Model and methods Overview
 
