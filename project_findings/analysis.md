@@ -38,7 +38,7 @@ To diagnostically predict whether or not a patient has diabetes, based on certai
 
 ![sweetviz](/images/sweetviz.PNG)
 
-### [link to the details of EDA by pandasgui](https://htmlpreview.github.io/?https://github.com/yukaberry/portfolio_forecasting_diabetes/blob/master/images/compare_repo_outcome_comparason.html)
+## [link to the details of EDA by pandasgui and sweetviz](https://htmlpreview.github.io/?https://github.com/yukaberry/portfolio_forecasting_diabetes/blob/master/images/compare_repo_outcome_comparason.html)
 
 
 ### Boxplot (a method for graphically depicting groups of numerical data through their quartiles)
@@ -62,7 +62,28 @@ Pearson correlation coefficient to examine the strength and direction of the lin
 ![pregnancies_age_correlation](/images/preg_age_outcome.png)
 
 
+### Correlation : Glucose and Insulin
 
+
+* **Outcome (1 for Diabetes, 0 for Non-Diabetes)**
+
+
+![insulin_glucose](/images/ins_glu_scatter.png)
+
+
+
+
+### Glucose and Outcome
+
+
+* **Outcome (1 for Diabetes, 0 for Non-Diabetes)**
+
+
+![glucose](/images/glucose_outcome.png)
+![glucose2](/images/glucose_outcome_box.png)
+
+
+### 
 
 
 # 3. Model and methods Overview
